@@ -1,4 +1,4 @@
-class Color_Eyler extends Animator {
+class Color_Eyler extends Animator  {
     constructor() {
         super();
         this.author = 'M A Eyler'
@@ -9,5 +9,5 @@ class Color_Eyler extends Animator {
         this.elt.style = "width: 100%; height: 100%;"
         this.time = 6000
     }
-    update() {} //no code is needed here
+    update() { }  //no code is needed here
 }
